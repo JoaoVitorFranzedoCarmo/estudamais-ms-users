@@ -2,11 +2,14 @@
   "name": "estudamais-ms-users",
   "version": "1.0.0",
   "description": "Microsservico de usuarios e autenticacao do Estuda+ (PostgreSQL + JWT)",
+  "type": "module",
   "main": "dist/server.js",
   "scripts": {
     "dev": "tsx watch src/server.ts",
     "build": "tsc",
-    "start": "node dist/server.js"
+    "start": "node dist/server.js",
+    "test:arch": "node --test src/arch/arch.test.js",
+    "test": "node --test src/features/users/users.domain.test.js"
   },
   "dependencies": {
     "express": "^4.19.2",

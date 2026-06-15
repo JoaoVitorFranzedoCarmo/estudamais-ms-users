@@ -74,3 +74,13 @@ npm run dev
 docker build -t estudamais-ms-users .
 docker run -p 4002:4002 --env-file .env estudamais-ms-users
 ```
+
+## Equipe
+
+Fernando Chociai  
+Gabriel Coltre  
+João Marcelo  
+João Vitor Franzedo Carmo  
+Leander Hallu  
+
+PUCPR — Projeto PJBL 2026
